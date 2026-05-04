@@ -8,11 +8,11 @@ function addTask() {
     const titleValue = Title.value;
     const textValue = Textarea.value;
 
-    if (titleValue === "" && textValue === "") {
-        alert("veuillez remplir les champs");
+    
+    if (titleValue === "" || textValue === "") {
+        alert("Écris un titre !");
         return;
     }
-
     const task = document.createElement("section");
 
     task.style.width = "90%";
@@ -94,3 +94,7 @@ function addTask() {
 }
 
 btnAjouter.addEventListener("click", addTask);
+
+
+
+
