@@ -37,6 +37,13 @@ h1{
     margin-top: 2.3rem;
     
 }
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
 .text{
     font-size: 15px;
     font-family: sans-serif;
@@ -55,6 +62,23 @@ h1{
     align-items: none;
 }
 
+input{
+    width: 440px;
+    background:rgb(53, 53, 53) ;
+    height: 35px;
+    margin-top: 2rem;
+    padding: 10px;
+    border: none;
+    color: rgb(231, 231, 231);
+    
+}
+
+input:hover{
+    outline:1px solid rgb(0, 119, 255);
+    border: none;
+    transition: 0.5s;
+}
+
 textarea{
     width: 440px;
     background:rgb(53, 53, 53) ;
@@ -71,10 +95,8 @@ textarea:hover{
     border: none;
     transition: 0.5s;
 }
-::placeholder{
-    color: rgb(203, 203, 203);
-}
-#add{
+
+#Ajouter{
     background: none;
     outline:1px solid rgb(0, 200, 255);
     border: none;
@@ -90,6 +112,7 @@ textarea:hover{
     display: flex;
     margin-top: 1rem;
     gap: 10px;
+    margin-bottom: 3rem;
 }
 
 /* .view{
